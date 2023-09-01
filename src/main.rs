@@ -106,9 +106,6 @@ fn main() {
     }
 
 	// Get the hours, minutes and seconds from the total duration
-	// let seconds = total_duration % 60;
-	// let minutes = (total_duration - seconds) / 60;
-	// let hours = (minutes - minutes%60) / 60;
     let hours = total_duration / 3600;
     let remainder = total_duration % 3600;
     let minutes = remainder / 60;
